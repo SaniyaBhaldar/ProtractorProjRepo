@@ -1,0 +1,14 @@
+{
+  "name": "protractordemo",
+  "version": "1.0.0",
+  "description": "sample code",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "protractor JSFiles/ProtractorConfig.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
