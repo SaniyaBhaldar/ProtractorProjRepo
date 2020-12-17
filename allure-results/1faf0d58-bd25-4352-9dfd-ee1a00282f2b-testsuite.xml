@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608209434702' stop='1608209447715'>
+    <name>calculator simple demo</name>
+    <title>calculator simple demo</title>
+    <test-cases>
+        <test-case start='1608209434703' status='passed' stop='1608209442879'>
+            <name>Addition Test</name>
+            <title>Addition Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='10ef7313-3689-4bcc-a0bc-fe3e974ea3cd-attachment.png' type='image/png' size='17757'/>
+            </attachments>
+        </test-case>
+        <test-case start='1608209442879' status='failed' stop='1608209447714'>
+            <name>Subtraction Test</name>
+            <title>Subtraction Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4163b125-e094-4db3-a9e1-0bcf5188320a-attachment.png' type='image/png' size='17221'/>
+            </attachments>
+            <failure>
+                <message>Expected '15' to equal '5'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\A715489\Desktop\Projects\ProtractorDemo\tests\calculator.js:30:34)
+                    at C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+                    at C:\Users\A715489\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
